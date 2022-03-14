@@ -9,9 +9,9 @@ body {
 
 header {
     display: flex;
+    align-self: center;
     height: 80px;
-    width: 100%;
-    margin: 0 200px;
+    width: 75%;
 }
 
 .headerlogo {
@@ -23,6 +23,7 @@ header {
     width: 200px;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .headergroup {
@@ -62,7 +63,7 @@ header {
 .herotext h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     margin: 0 0;
 }
 
@@ -81,7 +82,7 @@ header {
     color: #FFF;
     background-color: #3780f6;
     border-style: none;
-    margin: 10px 6px;
+    margin: 20px 6px 10px 6px;
     text-decoration: none;
     font-size: 16px;
     border-radius: 5px;
@@ -108,7 +109,7 @@ header {
 .main h2 {
     color: #1f2937;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -187,7 +188,7 @@ header {
     color: #F9FAF8;
     margin: auto 50px;
     font-size: 16px;
-    font-weight: 500;/*This needs fixing to be a lighter weight as well as quote*/
+    font-weight: 300;/*This needs fixing to be a lighter weight as well as quote*/
 }
 
 .signuptext p {
@@ -195,18 +196,17 @@ header {
 }
 
 .biteparagraph {
-    font-weight:800;
+    font-weight:400;
     margin: 0 0 5px 5px;
     padding-bottom: 5px;
     font-size: 20px;
 }
 
 footer {
-    height: 60px;
+    height: auto;
     width: 100%;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding-top: 10px;
     margin-top: auto;
     text-align: center;
 }
